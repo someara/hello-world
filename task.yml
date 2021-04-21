@@ -1,76 +1,74 @@
 ---
-env:
-  - HELLO="WORLD"
-#  - TESTING=1
-#  - GIN_MODE=release
+env:  
+  - TESTING=1
 mountpoint: "/b"
 runs:
   alma_8:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/almalinux-8'
   amazon:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/amazonlinux'
   amazon_2:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/amazonlinux-2'
   centos_6:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/centos-6'
   centos_7:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/centos-7'
   centos_8:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/centos-8'
   centos_stream_8:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/centos-stream-8'
   debian_9:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/debian-9'
   debian_10:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/debian-10'
   debian_11:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/debian-11'
   fedora_31:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/fedora-31'
   fedora_32:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/fedora-32'
   fedora_33:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/fedora-33'
   fedora_latest:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/fedora-latest'
   opensuse_leap_15:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/opensuse-leap-15'
   oracle_6:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/oraclelinux-6'
   oracle_7:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/oraclelinux-7'
   oracle_8:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/oraclelinux-8'
   ubuntu_1604:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/ubuntu-16.04'
   ubuntu_1804:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/ubuntu-18.04'
   ubuntu_2004:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/ubuntu-20.04'
   ubuntu_2010:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/ubuntu-20.10'
   ubuntu_2104:
-    command: [ "/bin/uname", "-a" ]
+    command: [ "make" ]
     image: 'dokken/ubuntu-21.04'
