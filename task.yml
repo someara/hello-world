@@ -1,8 +1,6 @@
 ---
-env:  
-  - TESTING=1
 mountpoint: "/b"
 runs:
-  debian_11:
-    command: [ "gcc", "-o", "hello", "main.c" ]
-    image: 'gcc'
+  ubuntu-20.04:
+    image: 'someara/ubuntu-20.04'
+    command: [ "make" ]
