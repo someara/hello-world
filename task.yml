@@ -4,6 +4,6 @@ runs:
   build:
     image: 'someara/ubuntu-20.04'
     command: [ "make" ]
-  hello:
-    image: 'someara/ubuntu-20.04'
-    command: [ "./hello" ]
+  # hello:
+  #   image: 'someara/ubuntu-20.04'
+  #   command: [ "./hello" ]
