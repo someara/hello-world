@@ -1,6 +1,9 @@
 ---
 mountpoint: "/b"
 runs:
+  env:
+    image: 'someara/ubuntu-20.04'
+    command: [ "/usr/bin/env" ]
   build-and-test:
     image: 'someara/ubuntu-20.04'
     command: [ "/bin/bash", "-c", "/b/scripts/build-and-test.sh" ]
