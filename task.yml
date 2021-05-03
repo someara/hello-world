@@ -3,4 +3,4 @@ mountpoint: "/b"
 runs:
   build-and-test:
     image: 'someara/ubuntu-20.04'
-    command: [ "scripts/build-and-test.sh" ]
+    command: [ "/bin/bash", "-c", "/b/scripts/build-and-test.sh" ]
